@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://blqvn2snr2asl"]
+[gd_scene load_steps=2 format=3 uid="uid://blqvn2snr2asl"]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="TileSet" id="TileSet_ilrk3"]
+
+[node name="Yoshi\'s island 1" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_ilrk3")
+format = 2
